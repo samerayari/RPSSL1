@@ -2,11 +2,11 @@ Programmet er en udvidelse af det normale sten-saks-papir-spil, hvor Spock og Li
 
 Flowchartet viser spillets struktur:
 
-Spillet starter.
-Spiller vælger et tegn. 
-Computeren vælger et tilfældigt tegn. 
-Valgene sammenlignes: spiller vinder, computer vinder, eller det er uafgjort.
-Point opdateres.
-Tjek: har spiller eller computer nået WinningScore?
-Ja → spillet slutter og en vinder vises.
-Nej → ny runde starter.
+1. Spillet starter.
+2. Spiller vælger et tegn.&nbsp;
+3. Computeren vælger et tilfældigt tegn.&nbsp;
+4. Valgene sammenlignes: spiller vinder, computer vinder, eller det er uafgjort.
+5. Point opdateres.
+6. Tjek: har spiller eller computer nået WinningScore?
+  * Ja → spillet slutter og en vinder vises.
+  * Nej → ny runde starter.
